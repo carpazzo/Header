@@ -6,7 +6,7 @@ $textcolor: grey;
 html {
   margin: 0;
   padding: 0;
-  min-width: 630px;
+  min-width: 585px;
   font-family: "Questrial", sans-serif;
 
   body {
@@ -14,9 +14,7 @@ html {
     margin-left: 3px;
     margin-right: 3px;
   }
-  .wrapper {
-    max-width: 1330px;
-  }
+
   header {
     display: flex;
     height: 16rem auto;
@@ -90,52 +88,51 @@ html {
   }
   .main {
     background-color: #000c29;
+    height: auto;
   }
   .main-img {
     margin-bottom: 3px;
     background-image: url("../images/image1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 450px;
+    height: 480px;
     width: 100%;
     background-size: 100% 100%;
   }
   .services {
     display: flex;
     flex-wrap: wrap;
+    height: auto;
     bottom: 0px;
     justify-content: space-between;
 
     .service-img {
       flex: 1;
-      justify-items: center;
-      max-width: 20rem;
-      max-height: 13.2rem;
+      justify-content: center;
+      max-width: 18rem;
+      height: 15rem;
 
       img {
-        margin-left: 4px;
-
-        max-height: 14rem;
-
-        max-width: 19rem;
+        justify-content: center;
+        max-width: 17.8rem;
+        max-height: auto;
       }
 
       .service-tag {
         background-color: rgba(0, 0, 0, 0.747);
-        height: 45px;
+        height: 35px;
         color: white;
         position: relative;
         bottom: 35%;
         padding-top: 8px;
-        margin-left: 4px;
-        width: 19rem;
-        font-size: 35px;
+        width: 17.8rem;
+        font-size: 25px;
         text-align: center;
       }
     }
   }
 }
-//persists until 700
+//after 700
 @media (min-width: 700px) {
   html {
     margin: 0;
@@ -172,11 +169,31 @@ html {
 
       .service-img {
         flex: 1;
+        max-width: 27rem;
+        height: 18.7rem;
+
+        img {
+          justify-content: center;
+          max-width: 29rem;
+          max-height: 18rem;
+        }
 
         img:hover {
           z-index: 2;
           border: 1px solid white;
           border-bottom: 5px solid white;
+        }
+
+        .service-tag {
+          background-color: rgba(0, 0, 0, 0.747);
+          height: 45px;
+          color: white;
+          position: relative;
+          bottom: 35%;
+          padding-top: 8px;
+          width: 27rem;
+          font-size: 35px;
+          text-align: center;
         }
       }
     }
