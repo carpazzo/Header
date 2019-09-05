@@ -26,8 +26,8 @@ html header section.random-txt {
   color: grey;
   text-align: left;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 html header section.random-txt .txt-position-left {
@@ -45,8 +45,8 @@ html header section.logotyp-nav {
   font-size: 35px;
   display: block;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 html header section.logotyp-nav img.company-logo {
@@ -74,8 +74,8 @@ html header section.contact {
   color: grey;
   text-align: right;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 html header section.contact .txt-position-right {
@@ -85,7 +85,7 @@ html header section.contact .txt-position-right {
 
 html header section.contact .txt-position-right img {
   -webkit-filter: invert(50%);
-          filter: invert(50%);
+  filter: invert(50%);
   height: 35px;
   width: 45px;
 }
@@ -122,29 +122,29 @@ html .services {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   height: auto;
   bottom: 0px;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 html .services .service-img {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   max-width: 18rem;
   height: 15rem;
 }
 
 html .services .service-img img {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   max-width: 17.8rem;
   max-height: auto;
 }
@@ -180,8 +180,8 @@ html .services .service-img .service-tag {
     font-size: 35px;
     display: block;
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
   }
   html header section.logotyp-nav img.company-logo {
     margin-bottom: -30px;
@@ -196,20 +196,20 @@ html .services .service-img .service-tag {
     margin-left: 0px;
     margin-right: 0px;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
   html .services .service-img {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     max-width: 27rem;
     height: 18.7rem;
   }
   html .services .service-img img {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     max-width: 29rem;
     max-height: 18rem;
   }
