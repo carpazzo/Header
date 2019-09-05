@@ -13,9 +13,6 @@ html body {
   margin-right: 3px;
 }
 
-html .wrapper {
-  max-width: 1330px;
-}
 
 html header {
   display: -webkit-box;
